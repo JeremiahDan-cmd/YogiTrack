@@ -11,7 +11,7 @@
     "scripts": {
         "start": "parcel",
         "start-dev": "parcel index.html --open -p 8080",
-          "build": "parcel build index.html --public-url /YogiTrack/"
+          "build": "parcel build index.html --dist-dir dist --public-url /YogiTrack/"
     },
     "keywords": [],
     "author": "",
