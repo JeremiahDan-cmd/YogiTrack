@@ -10,8 +10,8 @@
     },
     "scripts": {
         "start": "parcel",
-        "start-dev": "parcel src/index.html --open -p 8080",
-        "build": "parcel build"
+        "start-dev": "parcel index.html --open -p 8080",
+          "build": "parcel build index.html --public-url /YogiTrack/"
     },
     "keywords": [],
     "author": "",
